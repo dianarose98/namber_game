@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="../namber__game/main.css">
+    <title> Угадайте число от 0 до 100</title>
+
+
+</head>
+
+<body>
+
+
+    <p id="startText">Загадайте целое число от 0 до 100 <br> и я угадаю его за 7 попыток или меньше!</p>
+
+
+    <button onclick="start()" id="startButton">Начинаем!</button>
+
+    <p id="question"> </p>
+    <br>
+
+    <button id="small" onclick="smallClick()" class="notOnScreen">Меньше</button>
+
+    <button id="bingo" onclick="rightClick()" class="notOnScreen">Угадал!</button>
+
+    <button id="big" onclick="bigClick()" class="notOnScreen">Больше</button>
+
+
+
+
+</body>
+<script src="../namber__game/game.js"></script>
+
+</html>
