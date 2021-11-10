@@ -14,7 +14,7 @@ function start() {
     document.getElementById("question").innerHTML = "Попытка " + stage + ": " + middle;
 
     document.getElementById("small").classList.remove("notOnScreen");
-    document.getElementById("right").classList.remove("notOnScreen");
+    document.getElementById("bingo").classList.remove("notOnScreen");
     document.getElementById("big").classList.remove("notOnScreen");
 }
 
@@ -59,7 +59,7 @@ function checkGame() {
         document.getElementById("question").innerHTML = "Вы загадали число " + min;
 
         document.getElementById("small").classList.add("notOnScreen");
-        document.getElementById("right").classList.add("notOnScreen");
+        document.getElementById("bingo").classList.add("notOnScreen");
         document.getElementById("big").classList.add("notOnScreen");
 
 
